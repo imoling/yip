@@ -1,0 +1,31 @@
+Yip
+Copyright (c) 2026 imoling <imoling.cn@gmail.com>
+Licensed under the Apache License, Version 2.0, see LICENSE.
+https://github.com/imoling/yip
+
+转发、改版或基于本项目的产品，须保留本文件中的署名，并在改过的文件里标明改动。
+
+本项目参照或改写了以下 MIT 许可的代码，原版权声明保留：
+
+OpenWorker — https://github.com/andrewyng/openworker
+  Copyright (c) 2024 Andrew Ng, MIT License
+  - app/src-tauri/src/lib.rs           子进程拉起、令牌注入、退出清理的做法（surfaces/gui/src-tauri/src/lib.rs）
+  - app/tailwind.config.js             用 color-mix 包 CSS 变量的颜色令牌写法（surfaces/gui/tailwind.config.js）
+  - app/src/components/Markdown.tsx    链接一律外部打开的渲染写法（surfaces/gui/src/components/Markdown.tsx）
+  - server/run.py                      父进程监视（coworker/server/run.py）
+  - packaging/yip-server.spec          PyInstaller onedir 打包（packaging/openworker-server.spec）
+  - server/providers.py                模型服务预置表的写法（coworker/providers/registry.py）
+  - server/tools/skills.py             技能渐进披露（coworker/skills/base.py）
+  - server/tools/mcp.py                mcpServers 配置格式和工具命名（coworker/mcp/）
+  - server/tools/risk.py               风险分级和放行（coworker/risk.py、permissions.py）
+  - server/tools/web.py                联网搜索和读网页（coworker/web/）
+
+lobe-icons — https://github.com/lobehub/lobe-icons（MIT）
+  - app/src/assets/logos/*.svg        模型服务品牌标（经 OpenWorker 和 @lobehub/icons-static-svg）
+
+simple-icons — https://simpleicons.org（CC0）
+  - app/src/components/Logo.tsx       GitHub、Notion、Git、SQLite、Brave、QQ、Gmail、阿里云的品牌标
+
+Apache ECharts 5.5.1 — https://echarts.apache.org
+  Copyright 2017-2024 The Apache Software Foundation, Apache License 2.0
+  - skills/chart-report/assets/echarts.min.js   「图表报告」技能离线出图用，原样随附

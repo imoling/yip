@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yip</title>
+    <script>
+      // 首帧前定深浅色，免得深色用户先闪一下白
+      try {
+        document.documentElement.dataset.theme =
+          window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

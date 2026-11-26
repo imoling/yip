@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+.DS_Store
+build/
+dist/
+app/node_modules/
+app/dist/
+app/src-tauri/target/
+app/src-tauri/gen/
+app/src-tauri/binaries/sidecar/*
+!app/src-tauri/binaries/sidecar/.keep
+.venv-*/
+.claude/
+evals/results/
+
+# 设计过程稿和需求原始材料，只留本地
+docs/logo候选/
+docs/视觉对比/
+docs/设计参考/
+docs/需求定稿与开工计划.md
+
+# 品牌源图（每张约 2 MB），界面用 app/src/assets 的压缩版，README 用 assets/readme
+assets/brand/

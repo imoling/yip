@@ -1,0 +1,16 @@
+{
+  "intel-researcher": "调研小队",
+  "data-analyst": "调研小队",
+  "report-writer": "调研小队",
+  "general-assistant": "办公小队",
+  "requirements-analyst": "软件开发小队",
+  "developer": "软件开发小队",
+  "tester": "软件开发小队",
+  "code-reviewer": "软件开发小队",
+  "mail-assistant": "办公小队",
+  "meeting-secretary": "办公小队",
+  "document-clerk": "办公小队",
+  "report-assistant": "办公小队",
+  "ppt-designer": "办公小队",
+  "file-keeper": "办公小队"
+}

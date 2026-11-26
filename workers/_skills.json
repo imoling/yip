@@ -1,0 +1,56 @@
+{
+  "developer": [
+    "web-game"
+  ],
+  "tester": [
+    "web-game"
+  ],
+  "code-reviewer": [
+    "web-game"
+  ],
+  "intel-researcher": [
+    "research-report"
+  ],
+  "data-analyst": [
+    "data-table",
+    "research-report"
+  ],
+  "report-writer": [
+    "research-report",
+    "consulting-analysis",
+    "research-notes",
+    "diagram"
+  ],
+  "general-assistant": [
+    "research-report",
+    "data-table",
+    "web-game"
+  ],
+  "mail-assistant": [
+    "official-notice"
+  ],
+  "requirements-analyst": [
+    "research-report"
+  ],
+  "meeting-secretary": [
+    "meeting-notes",
+    "research-notes",
+    "official-notice"
+  ],
+  "document-clerk": [
+    "official-notice"
+  ],
+  "report-assistant": [
+    "routine-reporting",
+    "chart-report",
+    "data-table"
+  ],
+  "ppt-designer": [
+    "outline-ppt",
+    "diagram"
+  ],
+  "file-keeper": [
+    "document-to-markdown",
+    "document-asset-organization"
+  ]
+}

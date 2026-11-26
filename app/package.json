@@ -1,0 +1,32 @@
+{
+  "name": "iml-yip",
+  "private": true,
+  "version": "0.5.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "imoling <imoling.cn@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "simple-icons": "^16.38.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.5.2",
+    "postcss": "^8.5.16",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  }
+}

@@ -1,0 +1,30 @@
+{"text": "定价只看企业版", "intent": "augment", "target": "A", "group": "subset"}
+{"text": "定价那块重点看企业版，别管个人版", "intent": "augment", "target": "A", "group": "subset"}
+{"text": "定价别管免费版", "intent": "augment", "target": "A", "group": "subset"}
+{"text": "别管个人版了", "intent": "augment", "target": "A", "group": "subset"}
+{"text": "只看竞品甲这一家", "intent": "augment", "target": "main", "group": "subset"}
+{"text": "渠道也看一下华东的经销商", "intent": "augment", "target": "B", "group": "doing"}
+{"text": "渠道那边也看看代理返点", "intent": "augment", "target": "B", "group": "doing"}
+{"text": "最后给我 Markdown，不要 PPT", "intent": "augment", "target": "main", "group": "format"}
+{"text": "换个格式，用表格对比", "intent": "augment", "target": "main", "group": "format"}
+{"text": "功能差异优先看私有化部署", "intent": "augment", "target": "C", "group": ""}
+{"text": "顺便再加一家竞品", "intent": "append", "target": "main", "group": "new"}
+{"text": "再加一家竞品丁", "intent": "append", "target": "main", "group": "new"}
+{"text": "顺便查一下他们的服务政策", "intent": "append", "target": "main", "group": "new"}
+{"text": "顺便查一下售后 SLA", "intent": "append", "target": "main", "group": "new"}
+{"text": "另外看看三家最近有没有融资", "intent": "append", "target": "main", "group": "new"}
+{"text": "还有，帮我列一下他们的大客户", "intent": "append", "target": "main", "group": ""}
+{"text": "跑完之后再出一版对照表", "intent": "append", "target": "main", "group": ""}
+{"text": "补充一下：再看看他们的培训政策", "intent": "append", "target": "main", "group": ""}
+{"text": "定价查完以后再看看折扣政策", "intent": "append", "target": "A", "group": ""}
+{"text": "加一块：各家的实施交付周期", "intent": "append", "target": "main", "group": ""}
+{"text": "别做定价了，改看服务政策", "intent": "overturn", "target": "A", "group": "whole"}
+{"text": "定价不用做了", "intent": "overturn", "target": "A", "group": "whole"}
+{"text": "功能差异别做了", "intent": "overturn", "target": "C", "group": "whole"}
+{"text": "渠道不查了，换成查客户案例", "intent": "overturn", "target": "B", "group": "whole"}
+{"text": "定价这块全部重做，改看海外市场", "intent": "overturn", "target": "A", "group": "whole"}
+{"text": "这个方向不对，重来", "intent": "overturn", "target": "main", "group": ""}
+{"text": "全部重来", "intent": "overturn", "target": "main", "group": ""}
+{"text": "换个方向，改看国内大厂", "intent": "overturn", "target": "main", "group": "format"}
+{"text": "算了，不做竞品了，改成写行业趋势", "intent": "overturn", "target": "main", "group": ""}
+{"text": "不看竞品了，改成调研我们自己的客户反馈", "intent": "overturn", "target": "main", "group": ""}
